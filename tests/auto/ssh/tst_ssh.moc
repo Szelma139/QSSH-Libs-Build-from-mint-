@@ -1,0 +1,162 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_ssh.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.5)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_ssh.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.5. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_Ssh_t {
+    QByteArrayData data[14];
+    char stringdata0[212];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_Ssh_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_Ssh_t qt_meta_stringdata_tst_Ssh = {
+    {
+QT_MOC_LITERAL(0, 0, 7), // "tst_Ssh"
+QT_MOC_LITERAL(1, 8, 12), // "directTunnel"
+QT_MOC_LITERAL(2, 21, 0), // ""
+QT_MOC_LITERAL(3, 22, 18), // "errorHandling_data"
+QT_MOC_LITERAL(4, 41, 13), // "errorHandling"
+QT_MOC_LITERAL(5, 55, 13), // "forwardTunnel"
+QT_MOC_LITERAL(6, 69, 24), // "pristineConnectionObject"
+QT_MOC_LITERAL(7, 94, 18), // "remoteProcess_data"
+QT_MOC_LITERAL(8, 113, 13), // "remoteProcess"
+QT_MOC_LITERAL(9, 127, 21), // "remoteProcessChannels"
+QT_MOC_LITERAL(10, 149, 18), // "remoteProcessInput"
+QT_MOC_LITERAL(11, 168, 4), // "sftp"
+QT_MOC_LITERAL(12, 173, 21), // "x11InfoRetriever_data"
+QT_MOC_LITERAL(13, 195, 16) // "x11InfoRetriever"
+
+    },
+    "tst_Ssh\0directTunnel\0\0errorHandling_data\0"
+    "errorHandling\0forwardTunnel\0"
+    "pristineConnectionObject\0remoteProcess_data\0"
+    "remoteProcess\0remoteProcessChannels\0"
+    "remoteProcessInput\0sftp\0x11InfoRetriever_data\0"
+    "x11InfoRetriever"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_Ssh[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   74,    2, 0x08 /* Private */,
+       3,    0,   75,    2, 0x08 /* Private */,
+       4,    0,   76,    2, 0x08 /* Private */,
+       5,    0,   77,    2, 0x08 /* Private */,
+       6,    0,   78,    2, 0x08 /* Private */,
+       7,    0,   79,    2, 0x08 /* Private */,
+       8,    0,   80,    2, 0x08 /* Private */,
+       9,    0,   81,    2, 0x08 /* Private */,
+      10,    0,   82,    2, 0x08 /* Private */,
+      11,    0,   83,    2, 0x08 /* Private */,
+      12,    0,   84,    2, 0x08 /* Private */,
+      13,    0,   85,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_Ssh::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_Ssh *_t = static_cast<tst_Ssh *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->directTunnel(); break;
+        case 1: _t->errorHandling_data(); break;
+        case 2: _t->errorHandling(); break;
+        case 3: _t->forwardTunnel(); break;
+        case 4: _t->pristineConnectionObject(); break;
+        case 5: _t->remoteProcess_data(); break;
+        case 6: _t->remoteProcess(); break;
+        case 7: _t->remoteProcessChannels(); break;
+        case 8: _t->remoteProcessInput(); break;
+        case 9: _t->sftp(); break;
+        case 10: _t->x11InfoRetriever_data(); break;
+        case 11: _t->x11InfoRetriever(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_Ssh::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_Ssh.data,
+      qt_meta_data_tst_Ssh,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_Ssh::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_Ssh::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_Ssh.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_Ssh::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 12)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 12;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 12)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 12;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
